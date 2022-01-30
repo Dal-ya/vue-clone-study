@@ -1,4 +1,4 @@
-# profile-card-component
+# Vue.js front clone study
 
 ## Project setup
 ```
