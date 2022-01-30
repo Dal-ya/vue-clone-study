@@ -1,5 +1,8 @@
 # Vue.js front clone study
 
+## Deploy Site
+👉 https://gallant-gates-4b72c1.netlify.app/
+
 ## Project setup
 ```
 npm install
@@ -19,6 +22,3 @@ npm run build
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
