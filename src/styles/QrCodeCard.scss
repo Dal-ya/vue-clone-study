@@ -1,0 +1,39 @@
+* {
+  font-size: 62.5%;
+  font-family: Roboto SansSerif;
+}
+.card {
+  width: 320px;
+  border-radius: 20px;
+  background-color: #FFFFFF;
+  padding: 20px 15px 35px 15px;
+}
+
+.qr {
+  width: 290px;
+
+  img {
+    border-radius: 20px;
+    width: 100%;
+  }
+}
+
+.title {
+  h1 {
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 700;
+    line-height: 1.7rem;
+    letter-spacing: 0.05em;
+  }
+}
+
+.sub-text {
+  text-align: center;
+  padding-left: 22px;
+  padding-right: 22px;
+  span {
+    font-size: 0.9rem;
+    color: #968686;
+  }
+}

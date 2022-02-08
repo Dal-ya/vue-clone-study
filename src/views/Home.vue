@@ -6,6 +6,9 @@
         <li>
           <router-link to="/profile-card">Profile Card</router-link>
         </li>
+        <li>
+          <router-link to="/qrcode-card">QrCode Card</router-link>
+        </li>
       </ul>
     </div>
   </div>

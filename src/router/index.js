@@ -13,8 +13,13 @@ const routes = [
   },
   {
     path: '/profile-card',
-    name: 'ProfileCard',
+    name: 'ProfileCardPage',
     component: () => import('../views/ProfileCardPage'),
+  },
+  {
+    path: '/qrcode-card',
+    name: 'QrCardPage',
+    component: () => import('../views/QrCardPage'),
   },
 ];
 
