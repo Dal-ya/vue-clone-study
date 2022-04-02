@@ -21,6 +21,11 @@ const routes = [
     name: 'QrCardPage',
     component: () => import('../views/QrCardPage'),
   },
+  {
+    path: '/expanding-card',
+    name: 'ExpandingCard',
+    component: () => import('../views/ExpandingCard'),
+  },
 ];
 
 const router = createRouter({
