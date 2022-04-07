@@ -1,9 +1,15 @@
 <template>
-  <div></div>
+  <div>
+    <NavBar />
+  </div>
 </template>
 
 <script>
-export default {};
+import NavBar from '@/components/DesignBase/NavBar';
+export default {
+  name: 'DesignBasePage',
+  components: { NavBar },
+};
 </script>
 
 <style></style>

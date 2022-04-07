@@ -26,6 +26,11 @@ const routes = [
     name: 'ExpandingCard',
     component: () => import('../views/ExpandingCard'),
   },
+  {
+    path: '/design-base',
+    name: 'DesignBase',
+    component: () => import('../views/DesignBase'),
+  },
 ];
 
 const router = createRouter({
