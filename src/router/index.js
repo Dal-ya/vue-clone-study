@@ -22,9 +22,9 @@ const routes = [
     component: () => import('../views/QrCardPage'),
   },
   {
-    path: '/green',
-    name: 'GreenPage',
-    component: () => import('../views/GreenPage'),
+    path: '/expanding-card',
+    name: 'ExpandingCard',
+    component: () => import('../views/ExpandingCard'),
   },
 ];
 
