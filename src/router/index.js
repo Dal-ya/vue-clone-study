@@ -21,6 +21,11 @@ const routes = [
     name: 'QrCardPage',
     component: () => import('../views/QrCardPage'),
   },
+  {
+    path: '/green',
+    name: 'GreenPage',
+    component: () => import('../views/GreenPage'),
+  },
 ];
 
 const router = createRouter({

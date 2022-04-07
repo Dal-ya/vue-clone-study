@@ -1,13 +1,32 @@
 <template>
-  <div>
-    <h1>{{ msg }}</h1>
-  </div>
+  <div></div>
 </template>
 
 <script setup>
-import { ref } from 'vue';
+import { ref, reactive, watchEffect } from 'vue';
 
-const msg = ref('hello world');
+const count = ref(0);
+const obj = reactive({ msg: 'Hello' });
+
+watchEffect(() => {
+  console.log(count.value);
+  console.log(obj.msg);
+  console.log('-----------');
+});
+
+const add = () => {
+  count.value += 1;
+};
+
+const changeMessage = () => {
+  obj.msg = 'Hello World!!';
+};
+
+changeMessage();
+
+add(); // 1
+add(); // 2
+add(); // 3
 </script>
 
 <style scoped></style>
